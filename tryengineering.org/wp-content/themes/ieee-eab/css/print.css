@@ -1,0 +1,43 @@
+nav, #ieee-slider, #gtranslate_wrapper, .breadcrumb-text, .article-right, #colophon, .stickyheader-nav-custom, .ieee-custom-background-banner, .buttonsetc, .mobile-navigation, .wpb_video_widget, .noprint { display: none !important; }
+
+.custom-header-fixed {position: relative;}
+
+.vc_tta-panel-body {display: block !important;}
+.single-teacher .vc_tta-panels-container, .single-teacher .vc_column-inner  {max-width:760px; }
+a[href]:after {
+    content: none !important;
+  }
+  
+  
+  
+ img {
+    -webkit-print-color-adjust: exact !important;    
+}
+
+.grecaptcha-logo,.fixed-butterfly-layout, #translations {display:none !important; }
+.vc_tta-panel  {page-break-after: always; margin-top:20px; }
+
+
+
+.vc_tta-panels-container .vc_tta-panel-body { 
+    page-break-after: always;
+	page-break-inside: auto;
+	
+ }
+ 
+.vc_tta-panel-body {
+	height: auto !important;
+}
+ 
+ 
+ .article-text .wpb_content_element:not(.wpb_video_widget):not(.wpb_single_image):not(.wpb_raw_html) {
+	 float: none;
+ }
+
+
+a[href]:after {
+	display:inline-block; 
+	content: ' (' attr(href) ')' !important; 
+	font-size:12px;
+    word-break: break-all;
+}
